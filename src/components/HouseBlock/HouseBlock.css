@@ -1,0 +1,41 @@
+.houseBlock-sheet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  grid-column: 1/3;
+}
+.houseBlock-sheet-blockElement {
+  background-color: black;
+  display: grid;
+  grid-gap: 1px;
+  flex-grow: 1;
+  grid-template-columns: 179px 179px;
+}
+.houseBlock-sheet-entrance_title, .houseBlock-sheet-flat_title {
+  flex-grow: 0.4;
+  margin: 0;
+  font-size: 16px;
+  align-self: center;
+  width: -moz-min-content;
+  width: min-content;
+  padding: 10px 15px;
+}
+.houseBlock-sheet-flat_elem {
+  grid-column: 2;
+  height: 18px;
+  background-color: #fff;
+  padding: 5px;
+}
+.houseBlock-sheet-entrance_elem {
+  grid-column: 1;
+  height: 18px;
+  background-color: #fff;
+  padding: 5px;
+}
+.houseBlock-control {
+  display: flex;
+}
+.houseBlock-container {
+  display: grid;
+  grid-template-columns: 179px 179px;
+}/*# sourceMappingURL=HouseBlock.css.map */
